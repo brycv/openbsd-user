@@ -1,5 +1,5 @@
 xset +dpms
-( sleep 2 && xbattbar -t 5 top ) &
+xbattbar -t 5 top &
 xsetroot -solid dimgrey
 synclient ClickFinger2=2 ClickFinger3=3 PalmDetect=0 PalmMinWidth=4 PalmMinZ=100
 syndaemon -K -i 1 &
